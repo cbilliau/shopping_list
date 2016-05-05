@@ -38,8 +38,9 @@ body  {
   margin-right: 30px;
   height: 30px;
   width: 30px;
-  background: url("/images/unchecked.png");
+  background-image: url("/images/unchecked.png");
   background-repeat: no-repeat;
+  back
 }
 .boxChecked  {
   float:left;
@@ -47,7 +48,8 @@ body  {
   margin-right: 30px;
   height: 30px;
   width: 30px;
-  background: url("/images/checked.png");
+  background-image: url("/images/checked.png");
+  background-repeat: no-repeat;
 }
 .remove  {
   float: right;
