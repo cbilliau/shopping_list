@@ -38,7 +38,7 @@ body  {
   margin-right: 30px;
   height: 30px;
   width: 30px;
-  background: url('/images/unchecked.png');
+  background: url('images/unchecked.png');
   background-repeat: no-repeat;
 }
 .boxChecked  {
@@ -47,7 +47,7 @@ body  {
   margin-right: 30px;
   height: 30px;
   width: 30px;
-  background: url('/images/checked.png')
+  background: url('images/checked.png')
 }
 .remove  {
   float: right;
