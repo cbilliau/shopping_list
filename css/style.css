@@ -1,0 +1,59 @@
+body  {
+  font-family: Special Elite;
+}
+.sodared  {
+  float: left;
+  height: 70px;
+}
+.sodablue  {
+  float: right;
+  height: 70px;
+}
+.appName  {
+  margin: 0em auto;
+  width: 20em;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2em;
+}
+#userInput  {
+  font-family: sans-serif;
+  text-align: center;
+}
+.itemsSection  {
+  margin: auto auto;
+  max-width: 20em;
+}
+.itemsList  {
+  font-size: 2em;
+  list-style: none;
+  text-align: left;
+}
+.item {
+  margin-top: 1em;
+}
+.box  {
+  float:left;
+  margin-top: 0px;
+  margin-right: 30px;
+  height: 30px;
+  width: 30px;
+  background: url('/images/unchecked.png');
+  background-repeat: no-repeat;
+}
+.boxChecked  {
+  float:left;
+  margin-top: 0px;
+  margin-right: 30px;
+  height: 30px;
+  width: 30px;
+  background: url('/images/checked.png')
+}
+.remove  {
+  float: right;
+  display: none;
+}
+.removeShow  {
+  float:right;
+  display: inline;
+}

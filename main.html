@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <title>ShoppingList</title>
+</head>
+<body>
+
+  <!-- Enter Items -->
+  <section class="container">
+    <div class="appName">
+      <img src="images/soda-bottle-red.jpg" alt="soda bottle" class="sodared">
+      <img src="images/soda-bottle-blue.jpg" alt="soda bottle" class="sodablue">
+      <h2>Soda Shopping List</h2>
+    </div>
+    <form id="userInput">
+      <input type="text" id="inputBox" placeholder="Enter flavor here" size="30">
+      <button type="submit" id="addItem">Enter</button>
+    </form>
+  </section>
+
+  <!-- Shopping List -->
+  <section class="itemsSection">
+    <ul class="itemsList">
+      <li class="item">
+        <div class="boxChecked"></div>
+        <span>Grape</span>
+        <img src="/images/remove.png" alt="remove" class="removeShow">
+      </li>
+      <li class="item">
+        <div class="box"></div>
+        <span>Cherry</span>
+        <img src="/images/remove.png" alt="" class="remove">
+      </li>
+      <li class="item">
+        <div class="box"></div>
+        <span>Lime</span>
+        <img src="/images/remove.png" alt="remove" class="remove">
+      </li>
+    </ul>
+  </section>
+
+</body>
+</html>
