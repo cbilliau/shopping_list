@@ -38,7 +38,7 @@ body  {
   margin-right: 30px;
   height: 30px;
   width: 30px;
-  background-image: url("/images/unchecked.png");
+  background: url("../images/unchecked.png");
   background-repeat: no-repeat;
   back
 }
@@ -48,7 +48,7 @@ body  {
   margin-right: 30px;
   height: 30px;
   width: 30px;
-  background-image: url("/images/checked.png");
+  background: url("../images/checked.png");
   background-repeat: no-repeat;
 }
 .remove  {
