@@ -20,6 +20,31 @@ body  {
   font-family: sans-serif;
   text-align: center;
 }
+#addItem  {
+  font-weight: lighter;
+}
+#addItem:hover  {
+  font-weight: normal;
+}
+.buttonDisplay  {
+  margin: 1em auto 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+}
+#hideButton  {
+  display: in-line;
+}
+#showButton  {
+  display: none;
+}
+#hideButton:hover  {
+  font-weight: normal;
+}
+#showButton:hover  {
+  font-weight: normal;
+}
 .itemsSection  {
   margin: auto auto;
   max-width: 20em;
@@ -51,6 +76,9 @@ body  {
   background: url("../images/checked.png");
   background-repeat: no-repeat;
 }
+.strikethrough  {
+  text-decoration: line-through;
+}
 .remove  {
   float: right;
   display: none;
@@ -58,4 +86,14 @@ body  {
 .removeShow  {
   float:right;
   display: inline;
+}
+#searchInput  {
+  font-family: sans-serif;
+  text-align: center;
+}
+#searchItem  {
+  font-weight: lighter;
+}
+#searchItem:hover  {
+  font-weight: normal;
 }

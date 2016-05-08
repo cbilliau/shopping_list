@@ -5,35 +5,44 @@
   <link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-  <title>ShoppingList</title>
+  <title>Soda Shopping List</title>
 </head>
 <body>
 
-  <!-- Enter Items -->
+ <!-- Container/Header -->
   <section class="container">
     <div class="appName">
       <img src="images/soda-bottle-red.jpg" alt="soda bottle" class="sodared">
       <img src="images/soda-bottle-blue.jpg" alt="soda bottle" class="sodablue">
       <h2>Soda Shopping List</h2>
     </div>
+ <!-- Enter Items -->
     <form id="userInput">
       <input type="text" id="inputBox" placeholder="Enter flavor here" size="30">
       <button type="submit" id="addItem">Enter</button>
     </form>
   </section>
 
+  <!-- Sorting -->
+  <section class="sort">
+    <div class="buttonDisplay">
+      <button id="hideButton">Hide Checked Items</button>
+      <button id="showButton">Show Checked Items</button>
+    </div>
+  </section>
+
   <!-- Shopping List -->
   <section class="itemsSection">
     <ul class="itemsList">
       <li class="item">
-        <div class="boxChecked"></div>
+        <div class="box"></div>
         <span>Grape</span>
-        <img src="images/remove.png" alt="remove" class="removeShow">
+        <img src="images/remove.png" alt="remove" class="remove">
       </li>
       <li class="item">
         <div class="box"></div>
         <span>Cherry</span>
-        <img src="images/remove.png" alt="" class="remove">
+        <img src="images/remove.png" alt="remove" class="remove">
       </li>
       <li class="item">
         <div class="box"></div>
@@ -42,6 +51,19 @@
       </li>
     </ul>
   </section>
+
+  <!-- Search Box  -->
+  <section class="search">
+    <form id="searchInput">
+      <input type="text" id="searchBox" placeholder="Search list here" size="30">
+      <button type="submit" id="searchItem">Search</button>
+      <button type="submit" id="resetItem">Reset</button>
+    </form>
+  </section>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--remote script-->
+<!-- <script src="/jquery-2.2.3.min.js"></script> -->
+<script src="js/app.js"></script>
 
 </body>
 </html>
