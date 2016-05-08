@@ -87,4 +87,12 @@ $(document).ready(function() {
     $('li').children('span').css({'background-color': ''});
   })
 
+  // Web storageAvailable
+
+  if(!localStorage.getItem('bgcolor')) {
+    populateStorage();
+  } else {
+    setStyles();
+  }
+
 });
