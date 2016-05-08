@@ -87,3 +87,13 @@ body  {
   float:right;
   display: inline;
 }
+#searchInput  {
+  font-family: sans-serif;
+  text-align: center;
+}
+#searchItem  {
+  font-weight: lighter;
+}
+#searchItem:hover  {
+  font-weight: normal;
+}

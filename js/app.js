@@ -28,7 +28,6 @@ $(document).ready(function() {
       '</li>'
     );
   });
-
   // On mouseover, delete button appears
     // Ensure delete button appears on new items
 
@@ -53,7 +52,6 @@ $(document).ready(function() {
     // On button click hide checked items
     // On button click hide .hide button and show .show button
   $('.sort').on('click', '#hideButton', function() {
-    // console.log(this);
     var hideChecked = $('li').children('.boxChecked');
     $(hideChecked).parent('li').hide();
     $('#hideButton').hide();
@@ -67,5 +65,26 @@ $(document).ready(function() {
     $('#hideButton').show();
   });
 
+  //A text input which lets you search for items which match a specific string
+    //Add text input and button
+    // Add button event listener
+    // Get value out of input field
+    // Remove value from input field
+    // Highlight value if found
+      // Search for value in 'ul'
+      // Set element/attribute to Highlight
+  $('#searchItem').on('click', function(event) {
+    event.preventDefault();
+    var searchFlavor = $('#searchBox').val();
+    $('#searchBox').val('');
+    // console.log(searchFlavor);
+    $('span:contains(' + searchFlavor + ')').css('background-color', 'yellow');
+  });
+
+  // Reset find
+  $('#resetItem').on('click', function(event) {
+    event.preventDefault();
+    $('li').children('span').css({'background-color': ''});
+  })
 
 });
